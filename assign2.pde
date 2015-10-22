@@ -5,6 +5,10 @@ PImage bg2Img;
 PImage enemyImg;
 PImage hpImg;
 PImage treasureImg;
+PImage start1Img;
+PImage start2Img;
+PImage end1Img;
+PImage end2Img;
 int x,y,z;
 int a,b,c,d;
 boolean isPlaying;
@@ -21,6 +25,11 @@ void setup () {
     hpImg = loadImage("img/hp.png");
     treasureImg = loadImage("img/treasure.png");
     enemyImg = loadImage("img/enemy.png");
+    start1Img = loadImage("img/start1.png");
+    start2Img = loadImage("img/start2.png");
+    end1Img = loadImage("img/end1.png");
+    end2Img = loadImage("img/end2.png");
+    
     
     a = floor(random(0,600));
     b = floor(random(0,450));
