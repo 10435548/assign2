@@ -12,6 +12,10 @@ PImage end2Img;
 int x,y,z;
 int a,b,c,d;
 boolean isPlaying;
+boolean upPressed = false;
+boolean downPressed = false;
+boolean leftPressed = false;
+boolean rightPressed = false;
 float speed = 5;
 float moveX;
 float moveY;
@@ -35,6 +39,8 @@ void setup () {
     b = floor(random(0,450));
     c = floor(random(0,450));
     d = floor(random(30,195));
+    moveX = 580;
+    moveY = height/2;
 }
 
 void draw() 
